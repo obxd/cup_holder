@@ -1,0 +1,5 @@
+#!/bin/sh
+[[ -n $1 ]] && echo $'usage:\n'$(basename $0)$'\nthats it .' && exit;
+
+echo "enjoy your "
+eject
